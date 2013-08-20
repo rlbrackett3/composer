@@ -31,6 +31,7 @@ end
 
 group :development do
   gem 'sqlite3'
+  gem 'unicorn-rails'
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
   gem 'guard-bundler'
